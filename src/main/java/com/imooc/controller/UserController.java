@@ -14,7 +14,7 @@ public class UserController {
     //@ResponseBody
     public static User sayHello() {
         User u = new User();
-        u.setName("JunZhou2");
+        u.setName("JunZhou");
         System.out.println(u.getName());
         return u;
     }
