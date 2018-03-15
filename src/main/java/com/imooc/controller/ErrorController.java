@@ -22,7 +22,7 @@ public class ErrorController {
         return "thymeleaf/ajaxerror";
     }
 
-    @RequestMapping("/getAjaxerror")
+    @RequestMapping("/getDemoAjaxError")
     @ResponseBody
     public IMoocJSONResult getAjaxerror() {
 
